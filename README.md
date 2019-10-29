@@ -1,13 +1,3 @@
-React Coverflow
-===
-[![npm version](https://badge.fury.io/js/react-coverflow.svg)](http://badge.fury.io/js/react-coverflow)
-
-[![NPM](https://nodei.co/npm/react-coverflow.png)](https://nodei.co/npm/react-coverflow/)
-
----
-
-![](https://raw.githubusercontent.com/andyyou/react-coverflow/gh-pages/images/preview.png)
-
 React Coverflow is a React component for building cover flow style carousel in a convenient way.
 
 Features of `react-coverflow`
@@ -20,10 +10,10 @@ Features of `react-coverflow`
 
 ## Getting started
 
-Install `react-coverflow` using npm.
+Install `react-coverflow-mod` using npm.
 
 ```
-$ npm install react-coverflow
+$ npm install react-coverflow-mod
 ```
 
 The required stylesheet using `css-module` and include in package(js file), so you don't need include other stylesheet.
@@ -33,7 +23,7 @@ The required stylesheet using `css-module` and include in package(js file), so y
 ```js
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Coverflow from 'react-coverflow';
+import Coverflow from 'react-coverflow-mod';
 
 const fn = function () {
   /* do your action */

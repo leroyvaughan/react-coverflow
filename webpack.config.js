@@ -24,7 +24,7 @@ const plugins = [
 const entry = {};
 const mainEntryPoints = glob.sync(path.join(__dirname, './src/*.js'));
 
-entry['react-coverflow'] = mainEntryPoints;
+entry['react-coverflow-mod'] = mainEntryPoints;
 
 module.exports = {
   mode: 'production',
@@ -33,7 +33,7 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     filename: '[name].js',
     libraryTarget: 'umd',
-    library: 'react-converflow',
+    library: 'react-converflow-mod',
   },
   externals: [
     {
