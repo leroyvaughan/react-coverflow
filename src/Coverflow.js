@@ -24,7 +24,7 @@ const TRANSITIONS = [
   'webkitTransitionEnd',
 ];
 
-const HandleAnimationState = function() {
+const HandleAnimationState = function () {
   this._removePointerEvents();
 };
 
@@ -169,7 +169,7 @@ class Coverflow extends Component {
                         onClick={(e) => this._handlePrevFigure(e)}
                         className={`${styles.arrow} ${styles.left}`}
                       >
-                        <span/>
+                        <span />
                       </div>
                     )}
                     {this._renderFigureNodes()}
@@ -178,14 +178,14 @@ class Coverflow extends Component {
                         onClick={(e) => this._handleNextFigure(e)}
                         className={`${styles.arrow} ${styles.right}`}
                       >
-                        <span/>
+                        <span />
                       </div>
                     )}
                   </div>
                 )}
                 {!navigation && this._renderFigureNodes()}
               </div>
-              </div>
+            </div>
           </div>
         </StyleRoot>
       </div>
@@ -226,7 +226,7 @@ class Coverflow extends Component {
       style.width = `${baseWidth}px`;
       style.transform = `translateX(${this.state.move + offset}px)  scale(${
         this.props.currentFigureScale
-      }`;
+        }`;
       style.zIndex = `${10 - depth}`;
       style.opacity = opacity;
     } else if (index < current) {
@@ -234,7 +234,7 @@ class Coverflow extends Component {
       style.width = `${baseWidth}px`;
       style.transform = `translateX(${this.state.move + offset}px) rotateY(40deg) scale(${
         this.props.otherFigureScale
-      }`;
+        }`;
       style.zIndex = `${10 - depth}`;
       style.opacity = opacity;
       if (navigation) {
@@ -245,7 +245,7 @@ class Coverflow extends Component {
       style.width = `${baseWidth}px`;
       style.transform = ` translateX(${this.state.move + offset}px) rotateY(-40deg) scale(${
         this.props.otherFigureScale
-      })`;
+        })`;
       style.zIndex = `${10 - depth}`;
       style.opacity = opacity;
       if (navigation) {
@@ -264,7 +264,7 @@ class Coverflow extends Component {
       // If on the active figure
       if (typeof action === 'string') {
         // If action is a URL (string), follow the link
-        window.open(action, '_blank');
+        document.location.href = action;
       }
 
       this._removePointerEvents();

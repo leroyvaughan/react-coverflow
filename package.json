@@ -1,11 +1,11 @@
 {
-  "name": "react-coverflow",
-  "version": "0.2.20",
-  "description": "Carousel of coverflow effect",
+  "name": "react-coverflow-mod",
+  "version": "0.2.23",
+  "description": "Carousel of coverflow effect with slight mod(s)",
   "main": "main.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/andyyou/react-coverflow"
+    "url": "https://github.com/leroyvaughan/react-coverflow.git"
   },
   "scripts": {
     "test": "make test",
@@ -35,9 +35,9 @@
     "react-component"
   ],
   "author": {
-    "name": "andyyou",
-    "email": "andyyu0920@gmail.com",
-    "url": "http://andyyou.github.io/"
+    "name": "Gary Leroy Vaughan Jr",
+    "email": "garyvaughan1221@gmail.com",
+    "url": ""
   },
   "license": "MIT",
   "dependencies": {
@@ -47,7 +47,7 @@
     "prop-types": "^15.6.2",
     "react": "^16.5.2"
   },
-  "url": "https://github.com/andyyou/react-coverflow.git",
+  "url": "https://github.com/leroyvaughan/react-coverflow.git",
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-eslint": "^9.0.0",
