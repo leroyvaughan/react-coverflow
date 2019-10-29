@@ -1,6 +1,7 @@
 React Coverflow is a React component for building cover flow style carousel in a convenient way.
 
-Features of `react-coverflow`
+Features of `react-coverflow-mod` are similar to `react-coverflow`
+This repo is a fork of `react-coverflow` by andyyou
 
 * Flexbox styles of CSS 3.
 * Support scroll in the component.
@@ -153,6 +154,8 @@ $ npm publish
 ```
 
 ## Release History
+* 2019-10-29
+  - changed figure (img) click to change location in same page, not a new tab
 * 2019-04-13
   - Removed button navigation for arrow navigation. Using arrow navigation now disables the image-click navigation that had previously existed.
 * 2018-03-04
