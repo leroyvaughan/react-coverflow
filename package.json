@@ -1,14 +1,16 @@
 {
   "name": "react-coverflow-mod",
-  "version": "0.2.23",
+  "version": "0.3.21",
   "description": "Carousel of coverflow effect with slight mod(s)",
   "main": "main.js",
+  "typings": "src/index",
   "repository": {
     "type": "git",
     "url": "https://github.com/leroyvaughan/react-coverflow.git"
   },
   "scripts": {
     "test": "make test",
+    "start": "main",
     "prepublishOnly": "rm -rf dist && webpack --progress --colors -d",
     "clean": "rm -rf dist && rm -rf site/js/*.bundle.js",
     "build-npm": "rm -rf dist && webpack --progress --colors -d --config webpack.prod.js",
@@ -78,8 +80,6 @@
     "postcss-load-config": "^2.0.0",
     "postcss-loader": "^3.0.0",
     "prop-types": "^15.6.2",
-    "react": "^16.5.2",
-    "react-dom": "^16.5.2",
     "react-hot-loader": "^4.3.11",
     "sass-loader": "^7.0.3",
     "style-loader": "^0.23.0",

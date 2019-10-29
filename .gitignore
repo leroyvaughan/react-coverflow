@@ -29,3 +29,5 @@ build/Release
 node_modules
 dist
 react-coverflow-mod.code-workspace
+notes.txt
+package-lock.json
