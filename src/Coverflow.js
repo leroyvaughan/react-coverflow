@@ -2,7 +2,8 @@
 /**
  * React Coverflow
  *
- * Author: andyyou & asalem1
+ * Original Author: andyyou & asalem1
+ * React-Coverflow-Mod Author: Gary LeRoy Vaughan Jr
  */
 import React, { Component, createRef } from 'react';
 import PropTypes from 'prop-types';

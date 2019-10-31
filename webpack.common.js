@@ -26,7 +26,7 @@ module.exports = {
     path: path.resolve(__dirname, 'dist'),
     filename: '[name].js',
     libraryTarget: 'umd',
-    library: 'react-converflow',
+    library: 'react-coverflow-mod',
   },
   externals: [
     {
