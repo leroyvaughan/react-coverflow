@@ -1,6 +1,6 @@
 {
   "name": "react-coverflow-mod",
-  "version": "0.3.21",
+  "version": "0.3.22",
   "description": "Carousel of coverflow effect with slight mod(s)",
   "main": "main.js",
   "typings": "src/index",
